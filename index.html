@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="Script.js"></script>
+</head>
+<body>
+    <h1>Play & Win Coupon</h1>
+    <div class="gallery">
+        <img src="image/form image.png" alt="image1" onclick="showform()">
+        <img src="image/Details.jfif" alt="image2" onclick="displayDetails()">
+        <img src="image/Rolling-Dice.jpg" alt="RollingDice" onclick="RollingDice()">
+        <img src="image/Coupons.png" alt="image4" onclick="generateCoupon()">
+    </div>
+    <div class="formcontainer" id="formcontainer">
+        <form id="registerForm" onsubmit="return false;">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter Name"><br><br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Enter Email id"><br><br>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter Username"><br><br>
+            <button type="button" onclick="submitForm()">Submit</button>
+          </form>
+    </div>
+</body>
+</html>

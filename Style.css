@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 38rem;
+
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50px;
+}
+.gallery img{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    border: 2px solid skyblue;
+    margin-top: 100px;
+}
+.gallery img:hover{
+    border: 5px solid rgb(247, 244, 243);
+    width: 200px;
+    height: 200px;
+}
+.formcontainer{
+    width: 300px;
+    display: none;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 40%;
+    margin-top: 0.5rem;
+    position: absolute;
+    background-color: aqua;
+}
+.formcontainer input{
+    width: 100%;
+    height: 25px;
+    
+}
+button{
+    width: 10rem;
+    align-items: center;
+    background-color: rgb(51, 220, 51);
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 1.75rem;
+    cursor: pointer;
+    margin-left: 5rem;
+    outline: none;
+    border: 0;
+    padding: 4px 50px;
+    border-radius: 15px;
+}
